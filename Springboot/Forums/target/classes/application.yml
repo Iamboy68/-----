@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://118.31.39.231:3306/forums
+    url: jdbc:mysql://127.0.0.1:3306/forums
+    username: root
+#    password: Iamboy683643.
+    password: 123456
+  data:
+    redis:
+#      host: 118.31.39.231:3306
+      host: 192.168.253.134
+      port: 6379
+      password: 683643
+
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
